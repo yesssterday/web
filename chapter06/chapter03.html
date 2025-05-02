@@ -4,6 +4,26 @@
 		<title> 글 문단의 흐름 방향, 공백 처리에 관련된 속성 알아보기 </title>
 		<meta charset="UTF-8" />
 		<style type="text/css">
+			body{
+				font:1.2em "맑은 고딕", sans-serif;
+			}
+			h1{
+
+			}
+			.nowrapP{
+				white-space: nowrap;
+				width: 500ox;
+				background-color: cadetblue;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				display: -webkit-box;
+				-webkit-line-clamp: 2;
+				-webkit-box-orient: vertical;
+
+			}
+			.preP{
+				white-space: pre;
+			}
 			
 		</style>
 	</head>
