@@ -1,0 +1,48 @@
+#wrap{
+    width: 700px;
+    height: 1000px;
+    margin: 0auto;
+    background-color: rgb(207, 201, 201);
+    color: rgb(83, 71, 71);
+}
+header{
+    width: 100%;
+    height:100px;
+    background-color: blanchedalmond;
+    text-align: center;
+    font-size: 60px;
+}
+nav{
+    width:700px;
+    height:70px;
+    background-color:#879e23;
+    text-align: center;
+    line-height: 70px;
+    font-size: 30px;
+}
+main{
+    width:70%;
+    height:800px;
+    background-color: black;
+    text-align: center;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 40px;
+}
+section{
+    height: 50px;
+    width: 70%;
+    background-color: rgb(108, 107, 187);
+    box-sizing: border-box;
+}
+#section1{
+    line-height: 50px;
+    padding-left: 20px;
+    padding-left: 20px;
+}
+#section2{
+    line-height: 50px;
+    padding-left: 20px;
+    padding-left: 20px;
+}
